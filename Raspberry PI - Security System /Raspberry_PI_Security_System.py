@@ -418,7 +418,7 @@ def sendEmail(sendTo, emailSubject, emailContent, maxAttemptsReached):
 # Retrieves details in preparation to send an email to the user
 def getEmailDetails():
     global maxAttemptsReached
-    sendTo = 'binitamakanji@gmail.com'
+    sendTo = '*******'
     date = datetime.now().strftime('%d %b')
     time = datetime.now().strftime('%H:%M:%S')
 
